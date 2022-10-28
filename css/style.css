@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: max-content;
+  display: flex;
+}
+
+.boton {
+  border-style: groove;
+}
+.intronos {
+  display: flex;
+  width: fit-content;
+}
+
+.nosfamilia {
+  max-width: 30%;
+}
+
+.imglogo {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.navbar-brand {
+  color: black;
+  background-color: burlywood;
+  text-transform: uppercase;
+}
