@@ -13,9 +13,12 @@ h1 {
   align-items: center;
 }
 .container {
-  width: max-content;
-  display: flex;
+  /* width: max-content;
+  display: flex; */
+  /* position: absolute; */
 }
+
+
 
 .boton {
   border-style: groove;
@@ -25,6 +28,18 @@ h1 {
   width: fit-content;
 }
 
+.textnos{
+  display: flex;
+
+}
+.imgnos{
+  border-radius: 35%;
+  display: inline-block;
+}
+
+.imgindex{
+  border-radius: 15%;
+}
 .nosfamilia {
   max-width: 30%;
 }
